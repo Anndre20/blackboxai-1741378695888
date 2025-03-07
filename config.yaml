@@ -1,0 +1,18 @@
+# Configuration File for AI Document and Communication Agent
+
+api_keys:
+  third_party_service: <your_api_key>
+
+endpoints:
+  order_processing: <order_processing_endpoint>
+  invoice_generation: <invoice_generation_endpoint>
+
+logging:
+  level: INFO
+
+billing:
+  template_paths:
+    quotation: "path/to/quotation_template"
+    invoice: "path/to/invoice_template"
+  default_tax_rate: 0.15
+  currency: "USD"
